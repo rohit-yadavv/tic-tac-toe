@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 * {
   margin: 0;
@@ -84,8 +85,8 @@ h1 {
 .heading h1 {
   font-size: 4vw;
   font-weight: 500;
-  font-family: cursive;
   text-align: center;
+  font-family: "Quicksand", sans-serif;
 }
 
 #main {
@@ -111,7 +112,7 @@ h1 {
   );
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
-  font-family: cursive;
+  font-family: "Quicksand", sans-serif;
 }
 
 .winning img {
@@ -143,7 +144,8 @@ h1 {
   cursor: pointer;
   padding: 0rem 10px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
+  border: none;
 }
 
 #restart:hover {
@@ -174,7 +176,7 @@ h1 {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-family: cursive;
+  font-family: "Quicksand", sans-serif;
   border-radius: 0px;
   border: 2px solid var(--text2--);
 }
@@ -207,7 +209,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Quicksand", sans-serif;
   flex-direction: column;
   height: 30px;
   position: absolute;
