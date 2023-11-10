@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 html {
@@ -159,7 +162,7 @@ h1 {
 .container {
   display: grid;
   width: 24vw;
-  height: 20vw;
+  height: 24vw;
   grid-template-columns: repeat(3, 8vw);
   grid-template-rows: repeat(3, 8vw);
 }
@@ -200,10 +203,15 @@ h1 {
   border-bottom: none;
 }
 footer {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: cursive;
+  font-family: "Source Code Pro", monospace;
+  flex-direction: column;
+  height: 30px;
+  position: absolute;
+  bottom: 0px;
 }
 @media (max-width: 500px) {
   .heading h1 {
@@ -221,7 +229,13 @@ footer {
     width: 40px;
   }
   #main {
-    height: 60vh;
+    /* height: 60vh; */
     padding-top: 30px;
+  }
+  .items {
+    font-size: 15vw;
+  }
+  #restart {
+    font-size: 10vw;
   }
 }
